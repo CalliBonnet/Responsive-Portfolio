@@ -1,0 +1,43 @@
+body {
+    background-image: url("../images/symphony.png");
+}
+
+
+/* Below is realted to the nar bar */
+.nav-bar {
+    position: relative; 
+    background-color: #ffffff;
+    padding: 0 20px 0 20px;
+    height: 75px;
+    border: solid #cccccc;
+}
+
+
+.nav-container { 
+    border: 3px solid aqua; 
+    position: absolute; 
+    top: 5px; 
+    right: 0; 
+
+}
+
+
+/*this is creating the horizontal nav bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: white; */
+    float: right;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 20px;
+    color: gray;
+}
