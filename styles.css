@@ -59,6 +59,25 @@ body {
     border-bottom-width: 2px;
 }
 
+.image-and-para-div{
+
+}
+
+.about-me-img {
+    float: left;
+    padding: 0;
+    margin-right: 25px;
+}
+
+.about-me-para{
+    width: 545px;
+    padding: 5px; 
+    float: left;
+    /* position: left: 563px; top: 199px; */
+    line-height: 22px;
+    font-size: 20px;
+}
+
 @media screen and (max-width:641px) {
     .nav-bar {
         max-width: 585px;
