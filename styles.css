@@ -1,5 +1,7 @@
 body {
     background-image: url("../images/symphony.png");
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Below is realted to the nar bar */
@@ -80,8 +82,38 @@ body {
     font-size: 20px;
 }
 
-/*this is for 641 screens*/
-@media screen and (max-width:641px) {
+/*this is the footer*/
+.footer-container {
+    width: 100%;
+    margin-top: 75px;
+    position: absolute;
+}
+
+.footer-line{ 
+    position: relative;
+    border: solid #4aaaa5; 
+    width: 100%;
+}
+
+.copyright { 
+    color: rgb(54, 54, 54);
+    padding-top: 10px;
+}
+
+footer{
+    position: relative;
+    background-color:#666666;
+    height: 50px;
+    text-align: center;
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/*this is for 490 screens*/
+@media screen and (max-width:490px) {
     .nav-bar {
         width: 420px;
         position: absolute; 
@@ -98,7 +130,7 @@ body {
     .nav-container {
        height: 55px;
        top: 75px;
-       width: 437px;
+       max-width: 350px;
        margin-left: 0;
        background-color: #ffffff;
        border: 2px solid #4aaaa5;
