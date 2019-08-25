@@ -38,7 +38,6 @@ body {
     margin: auto; 
     width: 1000px; 
     height: 550px;
-
 }
 
 .about-me {
@@ -81,35 +80,51 @@ body {
     font-size: 20px;
 }
 
+/*this is for 641 screens*/
 @media screen and (max-width:641px) {
     .nav-bar {
-        max-width: 585px;
+        width: 420px;
         position: absolute; 
         border: none;
         background-color: transparent;
     }
 
     .name-container {
-        max-width: 750px;
+        max-width: 425px;
         text-align: center;
         left:0;
     }
 
     .nav-container {
-       left: 0;
        height: 55px;
        top: 75px;
-       max-width: 630px;
+       width: 437px;
+       margin-left: 0;
        background-color: #ffffff;
        border: 2px solid #4aaaa5;
    }
 
    .main-container {
-       top: 140px;
-       max-width: 750px;
-   }
+    width: 432px; 
+    height: 980px;
+    margin-left: 1px;
 }
 
+.about-me {
+    width: 350px;
+}
+
+.about-me-img {
+    width: 405px;
+    margin-bottom: 10px;
+}
+
+.about-me-para {
+    width: 400px;
+}
+}
+
+/*this is for 769 screens*/
 @media screen and (max-width:769px) {
     .nav-bar {
         max-width: 713px;
