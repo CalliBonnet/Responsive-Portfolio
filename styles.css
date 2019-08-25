@@ -62,7 +62,7 @@ body {
 
 .image-and-para-div{
     position: absolute;
-   margin-top: 75px;
+    margin-top: 75px;
     margin-left: 15px;
 }
 
@@ -154,6 +154,10 @@ footer{
 .about-me-para {
     width: 400px;
 }
+
+.footer-container {
+    margin-top: 135px;
+}
 }
 
 /*this is for 769 screens*/
@@ -166,23 +170,47 @@ footer{
     }
 
     .name-container {
-        width: 740px;
+        margin-left: 20px;
+        width: 950px;
         text-align: center;
         left:0;
     }
 
     .nav-container {
        left: 0;
+       margin-left: 20px;
        height: 55px;
        top: 75px;
-       max-width: 900px;
+       width: 950px;
        background-color: #ffffff;
        border: 2px solid #4aaaa5;
-   }
+        }
+
    .main-container {
     top: 130px;
-    max-width: 750px;
-}
+    width: 950px;
+    height: 510px;
+    margin-left: 20px;
+    }
+
+    .about-me {
+        background: transparent; 
+    }
+
+    .about-me-img {
+    width: 300px;
+    float: left;
+    }
+
+    .about-me-para{
+    width: 590px;
+    float: left;
+    }
+
+    .footer-container {
+    margin-top: 150px;
+    width: 1050px;
+    }   
 }
 
 
