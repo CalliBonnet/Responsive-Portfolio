@@ -37,7 +37,7 @@ body {
     background-color: #ffffff;
     margin: auto; 
     width: 1000px; 
-    height: 450px;
+    height: 550px;
 
 }
 
@@ -60,20 +60,23 @@ body {
 }
 
 .image-and-para-div{
-
+    position: absolute;
+   margin-top: 75px;
+    margin-left: 15px;
 }
 
 .about-me-img {
     float: left;
     padding: 0;
     margin-right: 25px;
+    margin-top: 5px;
 }
 
 .about-me-para{
-    width: 545px;
+    width: 625px;
     padding: 5px; 
     float: left;
-    /* position: left: 563px; top: 199px; */
+    margin-top: 1px;
     line-height: 22px;
     font-size: 20px;
 }
