@@ -33,12 +33,30 @@ body {
 /* This is for the container that holds the about me para */
 .main-container {
     position: relative;
-    border: 2px solid #cccccc;; 
+    border: 3px solid #cccccc;; 
     background-color: #ffffff;
     margin: auto; 
     width: 1000px; 
     height: 450px;
 
+}
+
+.about-me {
+    position: absolute;
+    background-color: #ffffff;
+    font-size: 30px;
+    color: #4aaaa5;
+    font-style: Georgia;
+    width: 920px;
+    height: 45px;
+    padding: 15px 20px 0px 30px;
+    margin: 0 auto;
+    left: 10px;
+    border: solid #e7e7e7;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 2px;
 }
 
 @media screen and (max-width:641px) {
@@ -65,10 +83,8 @@ body {
    }
 
    .main-container {
-       top: 150px;
+       top: 140px;
        max-width: 750px;
-
-
    }
 }
 
@@ -94,6 +110,10 @@ body {
        background-color: #ffffff;
        border: 2px solid #4aaaa5;
    }
+   .main-container {
+    top: 130px;
+    max-width: 750px;
+}
 }
 
 
