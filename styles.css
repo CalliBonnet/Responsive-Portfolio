@@ -2,23 +2,98 @@ body {
     background-image: url("../images/symphony.png");
 }
 
-
 /* Below is realted to the nar bar */
 .nav-bar {
     position: relative; 
-    background-color: #ffffff;
     padding: 0 20px 0 20px;
     height: 75px;
+    width: 960px;
+    margin: auto; 
     border: solid #cccccc;
+    background-color: #ffffff;
 }
 
-
-.nav-container { 
-    border: 3px solid aqua; 
+.name-container {
     position: absolute; 
     top: 5px; 
-    right: 0; 
+   padding: 5px 8px; 
+   top: -2px;
+   background-color: #4aaaa5; 
+   color: #ffffff; 
+}
 
+.nav-container { 
+    position: absolute;
+    top: 5px; 
+    right: 0; 
+    margin: 0px 7px;
+    border: 2px solid #4aaaa5;
+}
+
+/* This is for the container that holds the about me para */
+.main-container {
+    position: relative;
+    border: 2px solid #cccccc;; 
+    background-color: #ffffff;
+    margin: auto; 
+    width: 1000px; 
+    height: 450px;
+
+}
+
+@media screen and (max-width:641px) {
+    .nav-bar {
+        max-width: 585px;
+        position: absolute; 
+        border: none;
+        background-color: transparent;
+    }
+
+    .name-container {
+        max-width: 750px;
+        text-align: center;
+        left:0;
+    }
+
+    .nav-container {
+       left: 0;
+       height: 55px;
+       top: 75px;
+       max-width: 630px;
+       background-color: #ffffff;
+       border: 2px solid #4aaaa5;
+   }
+
+   .main-container {
+       top: 150px;
+       max-width: 750px;
+
+
+   }
+}
+
+@media screen and (max-width:769px) {
+    .nav-bar {
+        max-width: 713px;
+        position: absolute; 
+        border: none;
+        background-color: transparent;
+    }
+
+    .name-container {
+        width: 740px;
+        text-align: center;
+        left:0;
+    }
+
+    .nav-container {
+       left: 0;
+       height: 55px;
+       top: 75px;
+       max-width: 900px;
+       background-color: #ffffff;
+       border: 2px solid #4aaaa5;
+   }
 }
 
 
@@ -28,7 +103,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background-color: white; */
     float: right;
 }
 
@@ -41,3 +115,4 @@ a {
     padding: 20px;
     color: gray;
 }
+
